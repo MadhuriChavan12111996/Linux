@@ -94,5 +94,31 @@ General Troubleshooting:
 | uptime                     | System uptime  |
 | free -h                    | Memory usage   |
 
+ File Permissions:
+
+ | Command                              | Description                                         |
+| ------------------------------------ | --------------------------------------------------- |
+| ls -l filename                       | Check file permissions                              |
+| chmod u+x filename                   | Add execute permission for user                     |
+| chmod g-w filename                   | Remove write permission for group                   |
+| chmod o=r filename                   | Set read-only permission for others                 |
+| chmod u=rwx,o= filename              | User full access, others no access                  |
+| chmod 755 filename                   | user=rwx, group=rx, others=rx                       |
+| chown newuser filename               | Change owner                                        |
+| chown newuser:newgroup filename      | Change owner and group                              |
+| chown :newgroup filename             | Change only group                                   |
+| chown -R newuser:newgroup directory/ | Recursively change ownership                        |
+| chgrp newgroup filename              | Change group                                        |
+| chgrp -R newgroup directory/         | Change group recursively                            |
+| chmod u+s filename                   | SUID — run file with owner's permissions            |
+| chmod g+s filename                   | SGID — run file with group permissions              |
+| chmod g+s directory/                 | SGID on directory (new files inherit group)         |
+| chmod +t directory/                  | Sticky bit — only owner can delete inside directory |
+| umask                                | Show default permissions                            |
+| umask 022                            | Set new default mask                                |
+
+ 
+
+
 
 
