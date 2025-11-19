@@ -120,6 +120,8 @@ General Troubleshooting:
 
 <img width="975" height="581" alt="image" src="https://github.com/user-attachments/assets/e7036a20-d992-4448-a0f3-33b22a4b38b2" />
 
+<img width="975" height="663" alt="image" src="https://github.com/user-attachments/assets/e92e5da7-7672-4859-9c96-1c1e85db8ec6" />
+
  
 
 
