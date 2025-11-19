@@ -117,6 +117,9 @@ General Troubleshooting:
 | umask                                | Show default permissions                            |
 | umask 022                            | Set new default mask                                |
 
+
+<img width="975" height="581" alt="image" src="https://github.com/user-attachments/assets/e7036a20-d992-4448-a0f3-33b22a4b38b2" />
+
  
 
 
